@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  background: #E6E6E6;
+  margin: auto;
+}
+
+body .menu {
+  background: #75ACEC;
+  margin-top: 20px;
+}
+
+body .menu .secciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .menu .secciones li {
+  list-style: none;
+  padding: 10px 20px 10px 20px;
+}
+
+body .menu .secciones li :hover {
+  background: rgba(117, 172, 236, 0.8);
+}
+
+body .menu .secciones li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body .contenedor {
+  display: block;
+  float: left;
+  width: 65%;
+  margin-top: 20px;
+  margin-right: 2%;
+}
+
+body .contenedor .main {
+  background: #6dcfae url("Imagenes/FONDO-ESCRITORIO.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .contenedor .main .izquierda {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .contenedor .main .izquierda .titulo {
+  font-size: 60px;
+  font-family: 'Source Sans Pro';
+  color: #fff;
+  padding-top: 30px;
+}
+
+body .contenedor .main .izquierda .texto {
+  font-family: 'Poppins';
+  font-size: 20px;
+  color: #fff;
+}
+
+body .contenedor .main .derecha {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .contenedor .main .derecha .texto {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Times New Roman';
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+body .contenedor .main .derecha .imagenes {
+  color: #fff;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  font-family: 'Arial';
+}
+
+body .contenedor .main .derecha .imagenes .fondo {
+  background: #fff;
+  border-radius: 5px;
+}
+
+body .contenedor .main .derecha .imagenes .celular {
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+body .contenedor .main .derecha .imagenes .computadora {
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+body .contenedor .main .derecha .imagenes .tv {
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+body .contenedor .consecuencias .titulo {
+  background: #B6D5F0;
+  color: #fff;
+  font-family: 'PT Sans';
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+}
+
+body .contenedor .consecuencias .texto {
+  font-size: 17;
+  font-family: 'Poppins';
+  background: #fff;
+  padding: 20px;
+}
+
+body .contenedor .consecuencias .imagenes {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .contenedor .consecuencias .imagenes .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+body .contenedor .consecuencias .imagenes .images .vista {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+body .contenedor .consecuencias .imagenes .images .vista .vista {
+  border: 1px solid #2C7FC7;
+  text-align: center;
+}
+
+body .contenedor .consecuencias .imagenes .images .dolor {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+body .contenedor .consecuencias .imagenes .images .dolor .dolor {
+  border: 1px solid #2C7FC7;
+  text-align: center;
+}
+
+body .contenedor .consecuencias .imagenes .images .miopia {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+body .contenedor .consecuencias .imagenes .images .miopia .miopia {
+  border: 1px solid #2C7FC7;
+}
+
+body .contenedor .consecuencias .imagenes .images .insomnio {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+body .contenedor .consecuencias .imagenes .images .insomnio .insomnio {
+  border: 1px solid #2C7FC7;
+  text-align: center;
+}
+
+body .contenedor .lentes {
+  background: #81D6EB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .contenedor .lentes .izquierda {
+  width: 48%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .contenedor .lentes .izquierda .txt .titulo {
+  font-family: 'Source Sans Pro';
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+body .contenedor .lentes .izquierda .txt .texto {
+  font-size: 18px;
+  font-family: 'Poppins';
+  color: #fff;
+  padding: 20px;
+}
+
+body .contenedor .lentes .derecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 48%;
+  padding: 10;
+}
+
+body .contenedor .lentes .derecha .imagen .lentes {
+  width: 400px;
+  height: 350px;
+}
+
+body .contenedor .bluex .encabezado {
+  width: 100%;
+}
+
+body .contenedor .bluex .encabezado .titulo {
+  background: #55CEAA;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+body .contenedor .bluex .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #81D6EB;
+  margin-bottom: 20px;
+}
+
+body .contenedor .bluex .content .izquierda {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+body .contenedor .bluex .content .izquierda .txt {
+  padding: 20px;
+}
+
+body .contenedor .bluex .content .izquierda .txt .titulo {
+  font-size: 25px;
+  font-family: 'Source Sans Pro';
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+body .contenedor .bluex .content .izquierda .txt .texto {
+  font-size: 18px;
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+body .contenedor .bluex .content .derecha {
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .contenedor .bluex .content .derecha .cuenta {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-family: 'Times New Roman';
+  font-size: 23px;
+  margin: 10px, 0px, 10px, 0px;
+}
+
+body .contenedor .bluex .content .derecha .imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .contenedor .bluex .content .derecha .imagenes .antirreflejo {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+body .contenedor .bluex .content .derecha .imagenes .filtro {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+body .contenedor .bluex .content .derecha .imagenes .antirayaduras {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+body .contenedor .bluex .content .derecha .imagenes .uv400 {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+body .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33%;
+  margin-top: 20px;
+}
+
+body .left .aside {
+  padding: 20px;
+  background: #f78c2e;
+  font-size: 16px;
+  font-family: 'Arial';
+}
+
+body .left .aside .derechos {
+  color: #fff;
+}
+
+body .left .aside .derechos a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body .left .aside .derechos a:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+body footer {
+  background: #000;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+body footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Times New Roman';
+}
+
+@media screen and (max-width: 1400px) {
+  body .contenedor .lentes .derecha .imagen .lentes {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body .contenedor .bluex .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .contenedor .bluex .content .izquierda {
+    width: 100%;
+    text-align: center;
+  }
+  body .contenedor .bluex .content .derecha {
+    width: 100%;
+  }
+  body .contenedor .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding-top: 5px;
+  }
+  body .contenedor .main .izquierda {
+    width: 100%;
+  }
+  body .contenedor .main .izquierda .titulo {
+    width: 100%;
+    font-size: 50px;
+    padding-top: 0px;
+  }
+  body .contenedor .main .izquierda .texto {
+    font-size: 20px;
+  }
+  body .contenedor .main .derecha {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .contenedor .main .derecha .texto {
+    font-size: 20px;
+  }
+  body .contenedor .main .derecha .imagenes .tv {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body .contenedor .lentes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .contenedor .lentes .izquierda {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  body .contenedor .lentes .derecha {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  body .contenedor {
+    width: 100%;
+  }
+  body .contenedor .main .derecha {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body .menu .secciones li {
+    padding: 10px 10px 10px 10px;
+  }
+  body .menu .secciones li a {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  body .menu .secciones li {
+    padding: 10px 10px 10px 10px;
+  }
+  body .menu .secciones li a {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+}
+/*# sourceMappingURL=optimania.css.map */
