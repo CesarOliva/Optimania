@@ -25,6 +25,7 @@ body .menu .secciones {
 body .menu .secciones li {
   list-style: none;
   padding: 10px 20px 10px 20px;
+  display: flex;
 }
 
 body .menu .secciones li :hover {
@@ -36,6 +37,7 @@ body .menu .secciones li a {
   color: #fff;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-align: center;
 }
 
 body .contenedor {
@@ -455,6 +457,13 @@ body footer a {
   font-family: 'Times New Roman';
 }
 
+body footer p{
+  display: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Times New Roman';
+}
+
 @media screen and (max-width: 1400px) {
   body .contenedor .lentes .derecha .imagen .lentes {
     width: 300px;
@@ -554,6 +563,10 @@ body footer a {
   }
   body .left {
     width: 100%;
+    display: none;
+  }
+  body footer p{
+    display: block;
   }
 }
 
