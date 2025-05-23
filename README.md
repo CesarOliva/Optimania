@@ -1,6 +1,6 @@
 # Optimania
 
-Uno de mis primeros proyectos. Pagina web hecha como practica para <a href="https://optimania.pe/">optimania.pe</a>.
+Uno de mis primeros proyectos. Pagina web hecha como practica para <a href="https://optimania.pe/">optimania.pe</a> por <a href="https://cesaroliva.github.io/portafolio/">César Oliva</a>.
 
 ## Descripción
 
